@@ -1,0 +1,58 @@
+/* Add custom styles here */
+body {
+    padding-top: 70px; /* Replace with the height of your navbar */
+  }
+  
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .header img {
+      height: 40px;
+    }
+  }
+ 
+/*bg image style*/
+.bg-image {
+    background-size: cover;
+  }
+  
+/*
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .header img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .header a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.2s ease;
+  }
+  
+  .header a:hover {
+    color: #28a745;
+  }
+  
+  .jumbotron {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  */
+ 
+  

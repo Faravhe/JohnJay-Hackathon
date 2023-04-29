@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Community Service Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body class="bg-image" style="background-image: url('assets/img/logo-color.svg'); backdrop-filter: blur(5px);">
+  <header >
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <!-- Responsive logo -->
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+              </a>
+          
+              <!-- Navbar toggle button for mobile -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <!-- Navbar links -->
+<a class="nav-link" href="#donate">Home</a>
+          <!--Navbar Ends-->
+    </div>
+  </header>
+<!--Main body starts-->
+
+    <div class="container-fluid py-5" style="background-color: rgba(0,0,0,0.5);">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+            <section id="about">
+                <h1 class="text-white">Meet the team</h1>
+                <a href="answepage"><p class="text-white">Why is there always people jumping the train station, not paying their fares? </p></a>
+                <a><p class="text-white">Why is there always crazy people in the MTA?</p></a>
+                <a><p class="text-white">Why is the mayor always doing random stuff on social media/</p></a>
+                <a><p class="text-white">If I move across the train tracks at the MTA to get on the other side will I get in trouble ?</p></a>
+                <a><p class="text-white">Why is there always subway surfers delaying my train ride?</p><a>
+                <a><p class="text-white">Why is this poland spring water bottle cost me $4 in Manahatten</p><a>
+                <a><p class="text-white">How many boroughs are in NY</p></a>
+                <a><p class="text-white">What is my Zip code?</p></a>
+                <a><p class="text-white">When is the next Rolling Loud?</p></a>
+                <a><p class="text-white">What is the best beach to visit in the summer?</p></a>
+        <section id="catagories">
+            <h2 class="text-white"></h2>
+            <h2 class="text-white"></h2>
+            <h2 class="text-white">Choose the catagory for your donations</h2>
+            <a href="#section1" class="text-white">Textbooks</a> |
+            <a href="#section2" class="text-white">Clothings</a> |
+            <a href="#section3" class="text-white">Electronics</a>
+        </section>
+        </div>
+      </div>
+    </div>
+  
+  <!--Main body ends-->
+  
+  <!--Footer Starts-->
+  <footer class="sticky-footer bg-dark text-white">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-12 text-center">
+          <!-- Copy right text -->
+          <p class="mb-0">&copy; 2023 NYC Community Portal. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Ends-->
+
+  
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

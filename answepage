@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Community Service Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body class="bg-image" style="background-image: url('assets/img/logo-color.svg'); backdrop-filter: blur(5px);">
+  <header >
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <!-- Responsive logo -->
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+              </a>
+
+              <!-- Navbar toggle button for mobile -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#donate">Why you should donate?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#catagories">Donate Now!</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--Navbar Ends-->
+    </div>
+  </header>
+<!--Main body starts-->
+
+    <div class="container-fluid py-5" style="background-color: rgba(0,0,0,0.5);">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+            <section id="about">
+                <h1 class="text-white">Here is Your Answer</h1>
+                <p class="text-white">Some people in New York City may jump on trains (e.g. subway trains) to avoid paying the fare or to get to their destination more quickly, although this is illegal and dangerous.
+
+
+
+</p>
+        </section>
+
+
+        <section id="donate">
+            <h2 class="text-white">Comment</h2>
+
+            <div class="info">
+
+            <input id="inputField" class="input" type="text" placeholder="your task"><button id="addToDo" class="addtodo">+</button>
+
+        </div>
+
+    <div class="result">
+        <!--container for task-->
+        <div class="to-dos" id="toDoContainer"></div>
+        <!--js code !-->
+        <script src="main.js"></script>
+    </div>
+
+
+
+        </section>
+        <section id="catagories">
+            <h2 class="text-white"></h2>
+            <h2 class="text-white"></h2>
+            <h2 class="text-white">Choose the catagory for your donations</h2>
+            <a href="#section1" class="text-white">Textbooks</a> |
+            <a href="#section2" class="text-white">Clothings</a> |
+            <a href="#section3" class="text-white">Electronics</a>
+        </section>
+        </div>
+      </div>
+    </div>
+
+  <!--Main body ends-->
+
+  <!--Footer Starts-->
+  <footer class="sticky-footer bg-dark text-white">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-12 text-center">
+          <!-- Copy right text -->
+          <p class="mb-0">&copy; 2023 NYC Community Portal. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Ends-->
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
